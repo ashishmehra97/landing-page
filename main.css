@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+html, body{
+    background-color: black;
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-family: 'Viga', sans-serif;
+    letter-spacing: -1.25px;
+}
+p{
+    color:rgb(38, 71, 38);
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0;
+    letter-spacing: -0.5px;
+    font-family: 'Oswald', sans-serif;
+}
+.divider{
+    color: white;
+}
+.icon{
+    color: white;
+    padding: 15px;
+    border-radius: 40%;
+    size: 105px;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+}
